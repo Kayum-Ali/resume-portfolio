@@ -3,7 +3,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Service = () => {
     return (
-        <div className="bg-[url('https://res.cloudinary.com/dqescabbl/image/upload/v1725820884/images_f6ecpy.jpg')] py-16 px-8 text-white bg-cover rounded-2xl">
+        <div className="bg-[url('https://res.cloudinary.com/dqescabbl/image/upload/v1725820884/images_f6ecpy.jpg')] py-16 px-8 text-white  bg-contain rounded-2xl">
             <div className="container mx-auto">
                     <div className="flex justify-between">
                         <h2 className="text-5xl font-bold">My <span className="text-theme_orange">Service</span></h2>
