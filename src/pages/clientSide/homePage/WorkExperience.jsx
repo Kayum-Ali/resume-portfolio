@@ -1,6 +1,6 @@
 const WorkExperience = () => {
   return (
-    <div className="w-11/12 mx-auto  my-5">
+    <div className="container mx-auto  my-5">
       <p className="text-5xl font-bold text-center py-5">
         My <span className="text-[#fd853a]">Work Experience</span>
       </p>

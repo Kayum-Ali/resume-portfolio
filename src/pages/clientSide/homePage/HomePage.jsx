@@ -1,5 +1,6 @@
 
 import Banner from './Banner'
+import HireMe from './HireMe'
 import Service from './Service'
 import WorkExperience from './WorkExperience'
 
@@ -9,6 +10,7 @@ const HomePage = () => {
       <Banner></Banner>
       <Service></Service>
       <WorkExperience></WorkExperience>
+      <HireMe></HireMe>
        
     </div>
   )
