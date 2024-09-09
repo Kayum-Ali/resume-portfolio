@@ -1,6 +1,7 @@
 
 import Banner from './Banner'
 import HireMe from './HireMe'
+import MyResult from './MyResult'
 import Portfolio from './Portfolio'
 import Service from './Service'
 import WorkExperience from './WorkExperience'
@@ -13,6 +14,7 @@ const HomePage = () => {
       <WorkExperience></WorkExperience>
       <HireMe></HireMe>
       <Portfolio></Portfolio>
+      <MyResult></MyResult>
        
     </div>
   )
