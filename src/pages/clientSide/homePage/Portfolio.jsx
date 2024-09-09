@@ -10,13 +10,13 @@ import { GoArrowUpRight } from "react-icons/go";
 const Portfolio = () => {
   return (
     <div className="container mx-auto py-16">
-      <div className="flex justify-between items-center">
-        <h2 className="text-6xl font-semibold">
+      <div className="flex flex-col lg:flex-row justify-between items-center">
+        <h2 className="lg:text-6xl text-5xl font-semibold">
           Lets have a look at <br /> my{" "}
           <span className="text-theme_orange">Portfolio</span>
         </h2>
         <div>
-          <button className="bg-theme_orange py-3 px-6 text-white rounded-[60px]">
+          <button className="bg-theme_orange py-3 mt-5 lg:mt-0 px-6 text-white rounded-[60px]">
             See All
           </button>
         </div>
@@ -79,7 +79,7 @@ const Portfolio = () => {
         </Swiper>
       </div>
 
-      <div className=" flex gap-5 justify-center py-12">
+      <div className=" flex flex-wrap lg:flex-nowrap gap-5 justify-center py-12">
            <button className="bg-[#F2F4F7] py-2.5 px-5 rounded-[24px] ">landing Page</button>
            <button className="bg-[#F2F4F7] py-2.5 px-5 rounded-[24px] ">Web Design</button>
            <button className="bg-[#F2F4F7] py-2.5 px-5 rounded-[24px] ">Animation</button>
@@ -88,9 +88,9 @@ const Portfolio = () => {
            
       </div>
 
-      <div className="flex justify-center gap-3">
-          <h2 className="text-5xl font-bold">Lirante - Food Dilvery Solution</h2>
-          <GoArrowUpRight className="bg-theme_orange text-white rounded-full p-1 text-5xl"></GoArrowUpRight>
+      <div className="flex flex-col lg:flex-row justify-center gap-3">
+          <h2 className="lg:text-5xl text-4xl text-center lg:text-start  font-bold">Lirante - Food Dilvery Solution</h2>
+          <GoArrowUpRight className="bg-theme_orange text-white rounded-full p-1 text-5xl mx-auto lg:mx-0"></GoArrowUpRight>
       </div>
       <p className="w-2/4 mx-auto opacity-85 text-center mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.</p>
     </div>

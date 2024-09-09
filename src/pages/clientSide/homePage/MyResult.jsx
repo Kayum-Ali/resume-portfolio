@@ -17,7 +17,7 @@ const MyResult = () => {
         <img
           src="https://res.cloudinary.com/dnvmj9pvk/image/upload/v1725679411/React%20class/Portfolio%20Project/so0ncjl2y6almdqzdq8r.png"
           alt=""
-          className="w-5 mx-auto -top-3 right-44 absolute"
+          className="w-5 mx-auto -top-3 lg:right-44 -right-10 absolute"
         />
         <div className="relative">
           <img
@@ -50,59 +50,66 @@ const MyResult = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-           <div className="flex gap-12">
-           <SwipSlide></SwipSlide>
-           <SwipSlide></SwipSlide>
-           </div>
-           
-          </SwiperSlide>
-          <SwiperSlide>
-          <div className="flex gap-12">
-           <SwipSlide></SwipSlide>
-           <SwipSlide></SwipSlide>
-           </div>
-       
-          </SwiperSlide>
-          <SwiperSlide>
-          <div className="flex gap-12">
-           <SwipSlide></SwipSlide>
-           <SwipSlide></SwipSlide>
+           <div className="flex  gap-12">
+              <SwipSlide></SwipSlide>
+               <SwipSlide className='hidden lg:block'></SwipSlide>
            </div>
           </SwiperSlide>
+
           <SwiperSlide>
           <div className="flex gap-12">
-           <SwipSlide></SwipSlide>
-           <SwipSlide></SwipSlide>
+               <SwipSlide></SwipSlide>
+               <SwipSlide className='hidden lg:block'></SwipSlide>
            </div>
           </SwiperSlide>
+
+
           <SwiperSlide>
           <div className="flex gap-12">
-           <SwipSlide></SwipSlide>
-           <SwipSlide></SwipSlide>
+               <SwipSlide></SwipSlide>
+               <SwipSlide className='hidden lg:block'></SwipSlide>
            </div>
           </SwiperSlide>
+
           <SwiperSlide>
           <div className="flex gap-12">
-           <SwipSlide></SwipSlide>
-           <SwipSlide></SwipSlide>
+               <SwipSlide></SwipSlide>
+               <SwipSlide className='hidden lg:block'></SwipSlide>
            </div>
           </SwiperSlide>
+
           <SwiperSlide>
           <div className="flex gap-12">
-           <SwipSlide></SwipSlide>
-           <SwipSlide></SwipSlide>
+              <SwipSlide></SwipSlide>
+               <SwipSlide className='hidden lg:block'></SwipSlide>
            </div>
           </SwiperSlide>
+
           <SwiperSlide>
           <div className="flex gap-12">
-           <SwipSlide></SwipSlide>
-           <SwipSlide></SwipSlide>
+                <SwipSlide></SwipSlide>
+               <SwipSlide className='hidden lg:block'></SwipSlide>
            </div>
           </SwiperSlide>
+
           <SwiperSlide>
           <div className="flex gap-12">
-           <SwipSlide></SwipSlide>
-           <SwipSlide></SwipSlide>
+               <SwipSlide></SwipSlide>
+               <SwipSlide className='hidden lg:block'></SwipSlide>
+           </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+          <div className="flex gap-12">
+             <SwipSlide></SwipSlide>
+               <SwipSlide className='hidden lg:block'></SwipSlide>
+           </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+          <div className="flex gap-12">
+                <SwipSlide></SwipSlide>
+               <SwipSlide className='hidden lg:block'></SwipSlide>
            </div>
           </SwiperSlide>
         </Swiper>

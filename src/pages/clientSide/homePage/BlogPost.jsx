@@ -4,12 +4,12 @@ import { GoArrowUpRight } from "react-icons/go";
 const BlogPost = () => {
     return (
         <div className="container mx-auto my-5 pt-20">
-            <div className="flex justify-between">
-                 <h2 className="text-4xl font-medium">From my blog post</h2>
-                 <button className="py-3 px-6 rounded-[60px] bg-[#FD853A] text-white text-2xl">Send</button>
+            <div className="flex justify-between px-4 lg:px-0">
+                 <h2 className="lg:text-4xl text-3xl font-medium">From my blog post</h2>
+                 <button className="py-3 px-6 rounded-[60px] bg-[#FD853A] text-white lg:text-2xl">Send</button>
             </div>
 
-            <div className="flex flex-col lg:flex-row gap-8 pt-12">
+            <div className="flex flex-col lg:flex-row gap-8 pt-12 px-3 lg:px-0">
                 <div>
                     <div className="relative">
                         <img src="https://res.cloudinary.com/dqescabbl/image/upload/v1725898373/Rectangle_6_olusbi.png" alt="" />

@@ -25,35 +25,35 @@ const Banner = () => {
           <img src="https://res.cloudinary.com/dnvmj9pvk/image/upload/v1725679411/React%20class/Portfolio%20Project/so0ncjl2y6almdqzdq8r.png" alt="" className='w-5 absolute -top-5 -right-3' />
         </div>
         <div className="relative -z-10">
-          <p className='text-7xl text-center font-semibold'>I&apos;m <span className='text-theme_orange'>₭𝒂ყ𝔲𝙢</span>, <br /> Web designer</p>
+          <p className='lg:text-7xl md:text-5xl text-4xl text-center font-semibold'>I&apos;m <span className='text-theme_orange'>₭𝒂ყ𝔲𝙢</span>, <br /> Web designer</p>
           <img src="https://res.cloudinary.com/dnvmj9pvk/image/upload/v1725679411/React%20class/Portfolio%20Project/so0ncjl2y6almdqzdq8r.png" alt="" className='w-12 rotate-180 absolute -bottom-8 -left-7' />
         </div>
       </div>
 
       {/* image area  */}
 
-      <div className="flex gap-4 -mt-16 z-20">
-        <div className=" w-1/3 mt-28">
-          <FaQuoteLeft className='text-2xl' />
+      <div className="flex flex-col lg:flex-row gap-4 -mt-16 z-20 px-5 lg:px-0">
+        <div className=" lg:w-1/3 mt-28 text-center lg:text-start">
+          <FaQuoteLeft className='text-2xl mx-auto lg:mx-0' />
           <p className='text-xl font-bold leading-7 mt-5'>Kayum Exceptional Web design ensure our website’s success.Highly Recommended</p>
         </div>
         <div className="relative">
           <div className=' rounded-t-full z-20 '>
             <img src="https://res.cloudinary.com/dnvmj9pvk/image/upload/v1725680880/React%20class/Portfolio%20Project/ykujytgmukgflzwrtj36.png" alt="" className='a' />
           </div>
-          <div className='bg-[#FEB273] z-10 h-72 top-0 right-0 -mt-72 w-11/12 mx-auto rounded-t-full'></div>
+          <div className='bg-[#FEB273] z-10 h-60 lg:h-72 top-0 right-0 lg:-mt-72 -mt-60 w-11/12 mx-auto rounded-t-full'></div>
 
-          <div className='bg-white btn btn-glass  px-6 absolute bottom-10 left-40 inline-block h-20 rounded-[60px]'>
-             <div className='flex gap-3 opacity-[100%] my-3 '>
-             <button onMouseEnter={handleIconEnter} onMouseLeave={handleIconLeave} className='bg-[#FD853A] px-5 py-2.5
-              rounded-[60px] text-2xl flex items-center gap-2 text-white '>Portfolio <GoArrowUpRight   className={`${valueChage ? '' : 'hidden'}`}  /></button>
+          <div className='bg-white btn btn-glass  px-6 absolute lg:bottom-10 bottom-7 lg:left-40 md:left-36 left-9 inline-block h-20 rounded-[60px]'>
+             <div className='flex  gap-3 opacity-[100%] my-3 '>
+             <button onMouseEnter={handleIconEnter} onMouseLeave={handleIconLeave} className='bg-[#FD853A] lg:px-5 px-3 py-2.5
+              rounded-[60px] text-xl lg:text-2xl flex items-center gap-2 text-white '>Portfolio <GoArrowUpRight   className={`${valueChage ? '' : 'hidden'}`}  /></button>
              <button className='bg-[#FD853A] px-5 py-2.5
-              rounded-[60px] text-2xl flex items-center gap-2 text-white '>Hire me <GoArrowUpRight /></button>
+              rounded-[60px] text-xl lg:text-2xl flex items-center gap-2 text-white '>Hire me <GoArrowUpRight /></button>
              </div>
           </div>
 
         </div>
-        <div className="w-1/3 flex  justify-end mt-28">
+        <div className="lg:w-1/3 flex  lg:justify-end justify-center lg:mt-28 pb-3 lg:pb-0">
           <div className='text-end'>
             <ReactStars
               count={5}

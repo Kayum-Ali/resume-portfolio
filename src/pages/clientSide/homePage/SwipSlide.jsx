@@ -5,9 +5,9 @@ const SwipSlide = () => {
     return (
         <div className="flex gap-5 mt-16">
         <div className="bg-gray-500  bg-opacity-30 rounded-3xl relative  px-8 py-5">
-          <div className="flex gap-10 items-center justify-between">
+          <div className="flex flex-col lg:flex-row gap-10 items-center justify-between">
             <div>
-              <div className="flex gap-5 items-center">
+              <div className="flex flex-col lg:flex-row gap-5 items-center">
                 <div className="avatar">
                   <div className="w-24 rounded-full">
                     <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
@@ -20,7 +20,7 @@ const SwipSlide = () => {
               </div>
 
               {/* rating */}
-              <div className="rating rating-lg items-center gap-3">
+              <div className="rating rating-lg items-center mt-5 lg:mt-0 gap-3">
                 <input
                   type="radio"
                   name="rating-8"
@@ -55,7 +55,7 @@ const SwipSlide = () => {
                 
             </div>
           </div>
-          <p className="opacity-85">consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.</p>
+          <p className="opacity-85 px-5 lg:px-0">consectetur adipiscing elit. Sed congue interdum ligula a dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.Sed lobortis orci elementum egestas lobortis.</p>
         </div>
       </div>
     );

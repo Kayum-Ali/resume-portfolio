@@ -20,7 +20,7 @@ const Discus = () => {
         <img
           src="https://res.cloudinary.com/dnvmj9pvk/image/upload/v1725679411/React%20class/Portfolio%20Project/so0ncjl2y6almdqzdq8r.png"
           alt=""
-          className="w-5 mx-auto -top-3 right-44 absolute"
+          className="w-5 mx-auto -top-3 lg:right-44 right-7 absolute"
         />
         <div className="relative">
           <img
@@ -40,19 +40,19 @@ const Discus = () => {
           />
         </div>
 
-        <div className="border rounded-[60px] p-4 flex justify-between items-center">
-              <div className="flex gap-5  w-full">
+        <div className="border rounded-[60px] p-4 flex justify-between flex-col lg:flex-row md:flex-row items-center w-full">
+              <div className="flex gap-5  lg:w-full">
                 <MdEmail className="text-[#FD853A] bg-[#FFEAD5] p-3 text-6xl rounded-full"></MdEmail>
-                <input type="email" placeholder="Enter Tour Email Address" className="outline-none text-black" />
+                <input type="email" placeholder="Enter Your Email Address" className="outline-none text-black" />
               </div>
 
               <div className="">
-                 <button className="py-3 px-6 rounded-[60px] bg-[#FD853A] text-white text-2xl">Send</button>
+                 <button className="py-3 px-6 rounded-[60px] bg-[#FD853A] text-white lg:text-2xl">Send</button>
               </div>
             
         </div>
 
-        <div className="flex justify-between px-5 mt-8 text-xl">
+        <div className="flex flex-col lg:flex-row md:flex-row justify-between px-5 mt-8 text-xl gap-8 md:gap-2">
              <div className="flex gap-2">
                     <PiListStarDuotone className="text-black text-2xl"></PiListStarDuotone>
                     <p className="font-bold">4.9/5 Average Ratings</p>
